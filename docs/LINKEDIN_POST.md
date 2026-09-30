@@ -43,8 +43,8 @@ The same code ran on my laptop and in the cloud completely unchanged — the onl
 The hardest bugs weren't in my code — they were `postgres://` vs `postgresql://`, a database in the wrong region, and a 502 that only made sense once I read the deploy logs. Cloud work is mostly troubleshooting, and that's a skill in itself.
 
 📂 **GitHub:** https://github.com/zainab1315/Module-3-Cloud-Web-App
-🌐 **Live app:** https://cloud-notes.onrender.com
-❤️ **Health check:** https://cloud-notes.onrender.com/health
+🌐 **Live app:** https://cloud-notes-app.onrender.com
+❤️ **Health check:** https://cloud-notes-app.onrender.com/health
 
 📄 The full Module 3 report is in the repository as both DOCX and PDF.
 

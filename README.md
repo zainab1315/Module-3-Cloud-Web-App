@@ -232,11 +232,11 @@ Confirm on GitHub that `.env`, `*.db` and `venv/` are **not** in the file list.
    ```
 
 2. When it says **Service live**, copy the URL from the top of the dashboard, for example
-   `https://cloud-notes.onrender.com`.
+   `https://cloud-notes-app.onrender.com`.
 3. Test the live site:
-   - `https://cloud-notes.onrender.com/` - the form and the note list
-   - `https://cloud-notes.onrender.com/health` - must show `"status": "healthy"`
-   - `https://cloud-notes.onrender.com/api/notes` - must show `"count": 0` (or more)
+   - `https://cloud-notes-app.onrender.com/` - the form and the note list
+   - `https://cloud-notes-app.onrender.com/health` - must show `"status": "healthy"`
+   - `https://cloud-notes-app.onrender.com/api/notes` - must show `"count": 0` (or more)
 4. Open the **Logs** tab. You should see lines like:
 
    ```
@@ -254,7 +254,7 @@ Render's paid "always on" option):
 
 1. Sign up at <https://uptimerobot.com> (free account).
 2. **Add New Monitor** -> Type: `HTTP(s)` -> Friendly name: `Cloud Notes`.
-3. URL: `https://cloud-notes.onrender.com/health`
+3. URL: `https://cloud-notes-app.onrender.com/health`
 4. Monitoring Interval: `5 minutes`.
 5. Click **Create Monitor**.
 
