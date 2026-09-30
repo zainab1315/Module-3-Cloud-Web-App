@@ -40,3 +40,6 @@ Thumbs.db
 # ---- Local log files ----
 *.log
 logs/
+
+# ---- Local build scripts (not part of the deliverable) ----
+_build/
