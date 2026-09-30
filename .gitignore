@@ -1,0 +1,42 @@
+# ---- Secrets and environment files (never commit these) ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ---- Local database files ----
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+ENV/
+
+# ---- Cloud / build files ----
+.render/
+.buildpacks/
+Procfile.local
+
+# ---- Editors and operating system ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Local log files ----
+*.log
+logs/
